@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #d3d3d3;
+    transform: scale(1.05);
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Optional: Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  }
+  
