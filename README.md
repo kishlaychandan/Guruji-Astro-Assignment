@@ -1,8 +1,26 @@
-# React + Vite
+# Guruji Astro Recipe Search Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based application that allows users to search for recipes, view recipe details, and manage their favorite recipes. The application includes features for searching recipes, viewing details, and saving recipes to a favorites list.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Search Recipes**: Find recipes based on search queries.
+- **Recipe Details**: View detailed information about selected recipes.
+- **Favorites Management**: Add recipes to favorites and remove them when needed.
+- **Responsive Design**: The application is designed to be responsive and user-friendly on various devices.
+- **Gemini Recipe**: View detailed information about selected recipes from gemni.
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **React Router**: For handling routing and navigation.
+- **React Context API**: For managing global state related to recipes and favorites.
+- **react-toastify**: For displaying notifications.
+- **CSS**: For styling the components.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kishlaychandan/Guruji-Astro-Assignment
